@@ -13,7 +13,7 @@ output:
     reveal_options:
       navigation: false
       progress: false
-      slideNumber: true
+      slideNumber: false
       controls: false
     css: styles.css
 ---
@@ -35,27 +35,30 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 ![](images/clockbelltower.jpg) 
 </section>
 
-## General Education Goal
->* Track and improve program effectiveness
->* Program consists of courses
->* Student preformance is the most valid measure
->* General Education applies to all students
->* **Therefore, we plan to measure student performance across all courses in the program**
+## General Education Assessment
+* **Goal:** Track and improve program effectiveness <br />  
+
+	>* Our program primarily consists of courses
+	>* Embedded course assignments are the most meaningful and valid measures of student learning.
+	>* General Education applies to all students<br />  
+	
+>* **Therefore, we are measuring student performance in General Education using embedded assessments for all students in all courses.**
 
 ## Project Scope
-* In a semester...
+* In a typical semester, General Education at Ferris: <br />
 
->* Over 300 different course codes
->* Touching over 5,000 students
->* Involving over 300 faculty
->* Generating over 50,000 SCH
+	>* Offers over 400 different courses
+	>* Instructs over 5,000 individual students
+	>* Involves over 500 different faculty
+	>* Generates over 50,000 student credit hours
+	>* Is responsible for $20,000,000 in revenue
 
 ## Project Resources
 >* Program coordinator (me, 50% release)
->* General Education Committee (advisory)
->* Budget ($0)
->* Staff (none)
->* TracDat (data repository)
+>* General Education Committee (advisory, no release)
+>* Line item budget ($0)
+>* Dedicated staff (none)
+>* Other staff (Registrar and IR)
 
 ## The Assessment Cycle
 <section class = "plain">
@@ -74,47 +77,66 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 </section>
 
 ## Reproducible assessment
-* 
+<blockquote>Our goal is to create reproducible processes to increase transparency and <em>encourage faculty engagement</em>.</blockquote>  
 
+* **ALL** assessment resources are public-facing  <br />  
 
+	>* Data reports (PDF and HTML)
+	>* Data analysis code (R)
+	>* Deidentified data files (csv)<br />
 
+>* All released with MIT or CC-BY licenses  
+>* All results are computationally reproducible and extensible
 
+## Striking a balance
 
+<div align = "center">Faculty ownership vs. Chaotic data catastrophe</div>
+<section class = "plain">
+![](images/balance.jpg)
+</section>
 
 ## Sustainable assessment
-* The three keys to our program assessment strategy:
+* The three keys to our program assessment strategy: <br /><br />
 
->- **Simplify** — reduce complexity  
->- **Standardize** — reduce variance
->- **Automate** — reduce workload
+>1. **Simplification** — reduce complexity  
+>2. **Standardization** — reduce variance
+>3. **Automation** — reduce workload
 
->- Aiming for reproducible processes to increase transparency and encourage engagement
 
 ## Simplify: Core Competencies  
-* Eight competencies: 
+* Eight competencies: <br />  
 
->* Collaboration, Communication, Culture, Diversity, Natural Sciences, Problem Solving, Quantitative Literacy, Self and Society
->* Each overseen by a faculty subcommittee (8-10 members)
->* Operational definitions  
->* Goals (Hallmarks of a Bulldog)
->* Relevance statements
+>* Collaboration, Communication, Culture, Diversity, Natural Sciences, Problem Solving, Quantitative Literacy, Self and Society  
+>* Each overseen by a faculty subcommittee (6-10 members)  <br /><br />  
+
+  >1. Operational definitions  
+  >2. Goals ([Hallmarks of a Bulldog](https://ferris.edu/HTMLS/academics/general-education/competencies/hallmarks.htm))  
+  >3. Relevance statements  
 
 ## Simplify: Ferris Learning Outcomes
 >* Each competency has four learning outcomes
 >* Based upon what we want our graduating seniors to look like
 >* Derived from LEAP 
 >* One outcome measured each semester
->* Rolling two-year program cycle
+>* [Rolling two-year program cycle](https://ferris.edu/HTMLS/academics/general-education/evidence/schedule.htm)  
+
+## Standardize: Rubrics
+* Derived from VALUE rubrics  
+* [General Education now has a uniform](http://www.reproducibleassessment.com/1702/): <br /><br />  
+
+>1. Scoring system (zero to four point scale)  
+>2. Analysis interpretation (four threshold values)  
+>3. Criterion leveling (expectations by course level)  
 
 ## Standardize: Measures
-* Created in order to get more uniform reporting into TracDat
+* Created in order to get more uniform data collection and summarization
 
->* 14 different measures are defined
->* Each measure has its own:
->* Scoring system (zero to four point scale)
->* Analysis interpretation (four threshold values)
->* Criterion leveling (expectations by course level)
->* Each measure is present for all FLOs
+>* 14 different type of measures are defined  
+>* Instructors can choose to use any one they wish <br /><br />  
+
+>1. Exams
+>2. Products
+>3. Performances
 
 ## Standardize: Registering Courses
 * I need to know who is doing what each semester
@@ -126,7 +148,7 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 >* All tracked using a Google form
 
 ## Standarize: Data Collection
-* This is the biggest step forward for us
+* [This is the biggest step forward for us](https://ferris.edu/HTMLS/academics/general-education/procedures/forms/workbooks/index.htm)
 
 >* Excel workbooks to collect and summarize student results
 >* SCORE, PREPOST, NORM, RUBRIC
@@ -143,15 +165,6 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 >* Add a short reflection
 >* Attach the workbook and submit
 
-## Automate: TracDat Overview
-* Allow quick synopsis of the program data
-
->* Dashboard view gives status (i.e. number of results)
->* Several ad hoc reports are useful:
->* Assignment completion summary
->* Data overview
->* Results and reflections
-
 ## Automate: Analysis of Student Data
 * All workbooks are stored in the TracDat document repository
 
@@ -163,37 +176,31 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 
 ## Automate: Reporting
 
->* Using RMarkdown
->* Reuseable code
->* PDF reports for printing
->* HTML reports for distribution and collaboration
-
-## Promoting Assessment
-* True assessment requires faculty to evaluate and use the results!
-* Need to provide opportunities for interaction
-
->* Presentations in meetings
->* Moderated discussion boards
->* Comments in Open Science Framework
->* GitHub pull requests
+>* Using R and bookdown (Rmarkdown)  
+>* Reuseable, version-controlled code  
+>* PDF reports for printing  
+>* HTML reports for distribution and collaboration  
 
 ## Assessment in Action
-* [Report](https://weebeasties.github.io/1601_SCI1/report-1601.pdf)
-* [Discussion](https://weebeasties.github.io/1601_SCI1/)
-* [OSF](https://doi.org/10.17605/OSF.IO/35GSR)
-* [GitHub](http://github.com/weebeasties/1601_SCI1)
+* **Five means of creating a dialog:** <br /><br />  
 
-## Faculty Training
+>1. [Print reports for dissemination](http://www.reproducibleassessment.com/1601/report-1601.pdf)  
+>2. [Online forums for extended discussions](http://www.reproducibleassessment.com/1601/)  
+>3. [OSF projects as the ultimate home base](https://doi.org/10.17605/OSF.IO/35GSR)  
+>4. [GitHub repositories for reproducibility](http://github.com/weebeasties/1601_SCI1)  
+>5. [Executive dashboard for overviews](https://weebeasties.shinyapps.io/Dashboard)  
 
->* Frequent workshops of offered
->* One-on-one training sessions
->* Online instructional videos
+## Summary
+
+>* We are creating a _collaborative_ assessment environment  
+>* This is more about **process** than **personality**  
+>* Focus is on making a **resource** rather than just **reports**    
 
 ## Questions?
 
-* All of these resources are linked to from your handout
-* Licensed using either CC-BY 4.0 or MIT
-* Feel free to contact me if you have questions or comments
+* All of these resources are linked to from your handouts  
+* Licensed using either CC-BY 4.0 or MIT  
+* Feel free to contact me if you have questions or comments  
 
 <section class = "plain">
 ![](images/businessCard.jpg) 
