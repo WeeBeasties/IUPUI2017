@@ -110,7 +110,7 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 >* Each overseen by a faculty subcommittee (6-10 members)  <br /><br />  
 
   >1. Operational definitions  
-  >2. Goals ([Hallmarks of a Bulldog](https://ferris.edu/HTMLS/academics/general-education/competencies/hallmarks.htm))  
+  >2. Goals (<a href="https://ferris.edu/HTMLS/academics/general-education/competencies/hallmarks.htm" target="_blank">Hallmarks of a Bulldog</a>)  
   >3. Relevance statements  
 
 ## Simplify: Ferris Learning Outcomes
@@ -118,11 +118,11 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 >* Based upon what we want our graduating seniors to look like
 >* Derived from LEAP 
 >* One outcome measured each semester
->* [Rolling two-year program cycle](https://ferris.edu/HTMLS/academics/general-education/evidence/schedule.htm)  
+>* <a href="https://ferris.edu/HTMLS/academics/general-education/evidence/schedule.htm", target="_blank">Rolling two-year program cycle</a>   
 
 ## Standardize: Rubrics
 * Derived from VALUE rubrics  
-* [General Education now has a uniform](http://www.reproducibleassessment.com/1702/): <br /><br />  
+* <a href="http://www.reproducibleassessment.com/1701/", target="_blank">General Education now has a uniform</a>: <br /><br />  
 
 >1. Scoring system (zero to four point scale)  
 >2. Analysis interpretation (four threshold values)  
@@ -148,7 +148,7 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 >* All tracked using a Google form
 
 ## Standarize: Data Collection
-* [This is the biggest step forward for us](https://ferris.edu/HTMLS/academics/general-education/procedures/forms/workbooks/index.htm)
+* <a href="https://ferris.edu/HTMLS/academics/general-education/procedures/forms/workbooks/index.htm", target="_blank">This is the biggest step forward for us</a>
 
 >* Excel workbooks to collect and summarize student results
 >* SCORE, PREPOST, NORM, RUBRIC
@@ -184,11 +184,11 @@ knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 ## Assessment in Action
 * **Five means of creating a dialog:** <br /><br />  
 
->1. [Print reports for dissemination](http://www.reproducibleassessment.com/1601/report-1601.pdf)  
->2. [Online forums for extended discussions](http://www.reproducibleassessment.com/1601/)  
->3. [OSF projects as the ultimate home base](https://doi.org/10.17605/OSF.IO/35GSR)  
->4. [GitHub repositories for reproducibility](http://github.com/weebeasties/1601_SCI1)  
->5. [Executive dashboard for overviews](https://weebeasties.shinyapps.io/Dashboard)  
+>1. <a href="http://www.reproducibleassessment.com/1601/report-1601.pdf", target="_blank">Print reports for dissemination</a>  
+>2. <a href="http://www.reproducibleassessment.com/1601/", target="_blank">Online forums for extended discussions</a>  
+>3. <a href="https://doi.org/10.17605/OSF.IO/35GSR", target="_blank">OSF projects as the ultimate home base</a>  
+>4. <a href="http://github.com/weebeasties/1601_SCI1", target="_blank">GitHub repositories for reproducibility</a>  
+>5. <a href="https://weebeasties.shinyapps.io/Dashboard", target="_blank">Executive dashboard for overviews</a>  
 
 ## Summary
 
