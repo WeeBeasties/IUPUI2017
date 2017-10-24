@@ -21,11 +21,16 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, fig.align = "center")
 ```
+## Objectives  
+1. Describe the process used for General Education assessment at Ferris State University
+2. Provide access to all of our assessment resources
+3. Demonstrate several mechanisms for involving faculty in the assessment process
+
 ## Presentation Handouts
 * PDF versions are available online <br /><br />
 
->* <a href="http://www.reproducibleassessment.com/IUPUI2017/handout.pdf", target="_blank">QR codes and website information</a>
->* <a href="http://www.reproducibleassessment.com/IUPUI2017/Training_Handout.pdf", target="_blank">Training handout and standard measures</a>
+* <a href="http://www.reproducibleassessment.com/IUPUI2017/handout.pdf", target="_blank">QR codes and website information</a>
+* <a href="http://www.reproducibleassessment.com/IUPUI2017/Training_Handout.pdf", target="_blank">Training handout and standard measures</a>
 
 ## About Ferris State
 <div id="left">
